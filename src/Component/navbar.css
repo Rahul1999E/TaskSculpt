@@ -1,0 +1,154 @@
+body {
+    padding-top: 56px; /* Height of the navbar */
+    background-color: rgb(251, 202, 67);
+
+}
+
+.navbar {
+    box-shadow: 0 4px 2px -2px gray; /* Adding a subtle box shadow */
+
+}
+
+.navbar-brand {
+    font-size: 1.5rem; /* Adjusting the brand font size */
+}
+
+.form-inline {
+    display: flex;
+}
+
+.form-control {
+    width: 300px; /* Adjust the width of the search box */
+}
+
+.bg-color {
+    color: #563d7c !important;
+}
+
+#font {
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', sans-serif;
+    color :white;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.form-container{
+    margin-top:5em;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+
+
+}
+/*.card{
+    width: 60rem;
+    height: auto;
+} */
+
+.checkbox-container{
+    margin-top:5em;
+     display: flex;
+     justify-content: center;
+
+}
+
+#button{
+    margin-top:2.5em;
+    width: 15rem;
+
+
+}
+
+/* .data-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    /* flex-direction: column; 
+    
+}*/
+
+
+
+
+/* .radio-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}  */
+
+
+.data-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.radio-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+#radio-size{
+  font-size: 1.3rem;
+  font-weight: 800;
+  padding: 10px;
+}
+
+.read-container{
+    width : 100vw;
+    height : 10vh;
+}
+
+.card-container {
+   
+    margin: 50px;
+    display: flex;
+  flex-wrap: wrap; /* Allow cards to wrap onto the next line */
+  }
+  
+  .card {
+    width: calc(25% - 20px); 
+    width: 30rem; /* Set a specific width for your cards */
+    height : 10rem;
+    margin: 15px; /* Add some margin between cards */
+    border: 1px solid #ccc; /* Add a border for a card-like appearance */
+    border-radius: 8px; /* Optional: Add rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle box shadow */
+    transition: transform 0.3s ease-in-out;
+    
+  }
+  .card:hover {
+    transform: scale(1.05); /* Scale the card slightly on hover */
+  }
+  
+  .card-body {
+    padding: 30px;
+  }
+  
+  .card-title {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+  
+  .card-text {
+    font-size: 14px;
+    color: #555;
+  }
+
+  #post-button{
+    margin-top: 5px;
+    margin-right: 10px;
+    width : 7rem;
+    border: none;
+    background-color: rgb(251, 202, 67);
+    color: white;
+    padding :2.5px;
+    border-radius: 6px;
+    font-weight: bold;
+    text-overflow: none;
+  }
+  
+  
